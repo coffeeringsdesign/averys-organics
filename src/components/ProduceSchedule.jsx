@@ -13,7 +13,8 @@ const masterProduceSchedule = [
          "Onions",
          "Potatoes",
          "Turnips"
-      ]
+      ],
+      keyDate: 0
    },
    {
       month: "February",
@@ -25,7 +26,8 @@ const masterProduceSchedule = [
          "Mushrooms",
          "Onions",
          "Potatoes"
-      ]
+      ],
+      keyDate: 1
    },
    {
       month: "March",
@@ -38,7 +40,8 @@ const masterProduceSchedule = [
          "Mushrooms",
          "Onions",
          "Potatoes"
-      ]
+      ],
+      keyDate: 2
    },
    {
       month: "April",
@@ -53,7 +56,8 @@ const masterProduceSchedule = [
          "Mushrooms",
          "Onions",
          "Potatoes"
-      ]
+      ],
+      keyDate: 3
    },
    {
       month: "May",
@@ -68,7 +72,8 @@ const masterProduceSchedule = [
          "Lettuce",
          "Potatoes",
          "Radishes"
-      ]
+      ],
+      keyDate: 4
    },
    {
       month: "June",
@@ -90,7 +95,8 @@ const masterProduceSchedule = [
          "Potatoes",
          "Radishes",
          "Squash"
-      ]
+      ],
+      keyDate: 5
    },
    {
       month: "July",
@@ -126,7 +132,8 @@ const masterProduceSchedule = [
          "Radishes",
          "Squash",
          "Turnips"
-      ]
+      ],
+      keyDate: 6
    },
    {
       month: "August",
@@ -166,7 +173,8 @@ const masterProduceSchedule = [
          "Radishes",
          "Squash",
          "Turnips"
-      ]
+      ],
+      keyDate: 7
    },
    {
       month: "September",
@@ -200,7 +208,8 @@ const masterProduceSchedule = [
          "Radishes",
          "Squash",
          "Turnips"
-      ]
+      ],
+      keyDate: 8
    },
    {
       month: "October",
@@ -233,7 +242,8 @@ const masterProduceSchedule = [
          "Radishes",
          "Squash",
          "Turnips"
-      ]
+      ],
+      keyDate: 9
    },
    {
       month: "November",
@@ -250,7 +260,8 @@ const masterProduceSchedule = [
          "Potatoes",
          "Squash",
          "Turnips"
-      ]
+      ],
+      keyDate: 10
    },
    {
       month: "December",
@@ -266,17 +277,19 @@ const masterProduceSchedule = [
          "Onions",
          "Potatoes",
          "Turnips"
-      ]
+      ],
+      keyDate: 11
    }
 ];
 
 function ProduceSchedule() {
+  // var visitorDate = new Date().getMonth();
   return (
     <div>
       {masterProduceSchedule.map((produce, index) =>
       <ProduceMonth month={produce.month}
           selection={produce.selection}
-          key={index}/>
+          keyDate={produce.keyDate}/>
     )}
    </div>
   )

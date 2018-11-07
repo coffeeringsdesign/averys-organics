@@ -7,9 +7,9 @@ function Schedule(props) {
       <style jsx>{`
         div {
           margin-left: 30px;
-          padding: 30px;
+          padding: 20px;
           margin-top: 30px;
-          border: 3px solid #87B38D;
+          border: 3px solid #3d6042;
           width: 20%;
           border-radius: 10px;
           font-family: Montserrat;

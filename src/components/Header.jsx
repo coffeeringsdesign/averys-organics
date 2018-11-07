@@ -10,10 +10,11 @@ function Header(){
           width: auto;
           display: flex;
           align-items: center;
-          border-bottom: 2px solid #2e4831;
+          border-bottom: 2px solid #3d6042;
         },
         .header-styles {
           font-family: Montserrat;
+          padding-left: 20px;
         }
         .ul-styles {
           font-family: Montserrat;

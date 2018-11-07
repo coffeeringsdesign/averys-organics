@@ -17,6 +17,7 @@ function App(){
           body {
             margin: 0;
             padding: 0;
+            background-color: #F6F0ED;
           }
         `}</style>
       <Header/>
