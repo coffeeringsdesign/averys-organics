@@ -10,7 +10,16 @@ WebFont.load({
   }
 });
 
-function App(){
+function App() {
+
+// class App extends React.Component {
+ //  constructor(props) {
+ //   super(props);
+ //   this.state = {
+ //     masterTicketList: []
+ //   };
+ //   this.handleAddingNewTicketToList = this.handleAddingNewTicketToList.bind(this);
+ // }
   return (
     <div>
         <style jsx global>{`
